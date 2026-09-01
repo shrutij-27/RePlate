@@ -1,3 +1,3 @@
 # RePlate
 startup software project
-shruti-yadnyesh
+shruti Jetithor and yadnyesh Mavale
