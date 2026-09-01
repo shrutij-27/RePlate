@@ -1,0 +1,37 @@
+GIT SETUP
+
+#install
+#create a folder n open in vs code
+#create a repository on github
+#to check git version >git --version
+#to clear all >clear
+#TO clone >git clone " paste code repo link "
+#cd (to change directory) >cd "folder name"
+#To see all files >ls
+#To display hidden files , the belongs to git  >ls -h (window) -a(mac)
+#TO see git status >git status
+#Types of files 1]U -> untracked
+		2]M -> Modified/changed
+		3]Staged ->files is ready to be commited
+		4]Unmodified ->no changes
+#create a new file (shows in orange i.e Untracked)
+#To add >git add "file name" (once added Untraced turns orange to green)
+#TO add everything that is modeified or added >git add .
+#To commit is the record of the changes >git commit -m "message"
+#To show the changes on local system i.e TO PUSH >git push origin main (origin-main repo)
+#TO manage things from git we use >git init
+#To come out of a file >cd ..
+#To make new folder >mkdir itsname
+#To  make changes in NEWrepo >cd itsname
+#To make it a git repo >git init
+#once it is made into git repo follow all git commands to commit
+#create a new repo on github
+>git init
+>git remote add origin url of repo
+>git remote -v (To verify remote)
+>git branch (to check branch)
+>git branch -M main (to rename branch)
+>git push origin main (and works normaally)
+#if i want to work on the same branch so set it by default (>git push -u origin main) 
+	just >git push (it will push to main branch)
+	 
