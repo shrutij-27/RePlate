@@ -48,3 +48,25 @@ GIT SETUP
 	#TO rename a branchh >git branch -M newname
 	#To go to other branch >git checkout otherbranch
 	#To create new branch >git checkout -b newbranch
+	#To delete a branch >git branch -d branchname
+
+
+	#To merge two new branch to the main one
+	>git merge branchname
+		#To see the diffferences between two branches
+		>git diff branchname
+
+
+#To merge using github
+	make a pull request
+	PR is reviewed
+	compare and pull
+	new commit of pull request
+	successfully merged and closed
+
+#to take changes from remote to local we have to pull it
+	>git pull origin main (to fetch from remote)
+
+#To undo changes
+	>git reset filename
+	>git reset HEAD-1
