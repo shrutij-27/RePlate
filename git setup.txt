@@ -34,6 +34,13 @@ GIT SETUP
 >git push origin main (and works normaally)
 #if i want to work on the same branch so set it by default (>git push -u origin main) 
 	just >git push (it will push to main branch)
+
+	1]make changes
+	2]>git status
+	3]>git add .
+	4]>git commit -m "message"
+	5]>git push origin main
+	
 	 
 #Git branches
 	we can ceate a copy of it and make commits and then merge it back
