@@ -35,3 +35,9 @@ GIT SETUP
 #if i want to work on the same branch so set it by default (>git push -u origin main) 
 	just >git push (it will push to main branch)
 	 
+#Git branches
+	we can ceate a copy of it and make commits and then merge it back
+	#To check branch >git branch
+	#TO rename a branchh >git branch -M newname
+	#To go to other branch >git checkout otherbranch
+	#To create new branch >git checkout -b newbranch
