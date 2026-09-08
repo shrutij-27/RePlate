@@ -70,3 +70,9 @@ GIT SETUP
 #To undo changes
 	>git reset filename
 	>git reset HEAD-1
+
+
+TO pull new branch from remote to local
+>git branch(checks the branch you are in)
+>git fetch origin
+>git checkout -b branch-name origin/branch-name
