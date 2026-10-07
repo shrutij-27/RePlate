@@ -51,8 +51,9 @@ GIT SETUP
 	#To delete a branch >git branch -d branchname
 
 
-	#To merge two new branch to the main one
+	#To merge new branch to the main one
 	>git merge branchname
+	>git push origin main (to push it to remote)
 		#To see the diffferences between two branches
 		>git diff branchname
 
